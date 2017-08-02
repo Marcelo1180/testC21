@@ -9,6 +9,6 @@ y = iris.target
 
 clf = neighbors.KNeighborsClassifier(n_neighbors, weights='distance')
 clf.fit(x, y)
-
+#https://www.youtube.com/watch?v=f_oVM4JiCMs
 
 print(y)
